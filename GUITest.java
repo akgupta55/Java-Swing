@@ -12,6 +12,7 @@ class GUITest extends JFrame {
 	GUITest() {
 		Container cn = getContentPane();
 		cn.setLayout(null);
+
 		JLabel l1 = new JLabel("Enter First name");
 		l1.setBounds(20, 60, 150, 40);
 		cn.add(l1);
@@ -27,6 +28,7 @@ class GUITest extends JFrame {
 		JButton b1 = new JButton("Click Me");
 		b1.setBounds(90, 190, 100, 40);
 		cn.add(b1);
+
 		setSize(600, 600);
 		setVisible(true);
 
